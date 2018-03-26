@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-devetry",
+  "version": "1.0.0",
+  "description": "Starting point eslint-config for Devetry projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devetry/eslint-config-devetry.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Brian Schiller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devetry/eslint-config-devetry/issues"
+  },
+  "homepage": "https://github.com/devetry/eslint-config-devetry#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
