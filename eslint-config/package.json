@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-devetry",
+  "name": "@devetry/eslint-config",
   "version": "1.0.0",
   "description": "Starting point eslint-config for Devetry projects",
   "main": "index.js",
