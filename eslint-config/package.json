@@ -27,9 +27,9 @@
     "eslint": "^4.19.1"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0"
+    "eslint-config-airbnb-base": "^13.2.0"
   },
   "peerDependencies": {
-    "eslint-plugin-import": "^2.9.0"
+    "eslint-plugin-import": "^2.18.0"
   }
 }
