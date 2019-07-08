@@ -1,0 +1,26 @@
+{
+  "name": "@devetry/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config to be used in Devetry projects",
+  "scripts": {
+    "test": "prettier index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devetry/lint-roller.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "config"
+  ],
+  "author": "Devetry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devetry/lint-roller/issues"
+  },
+  "homepage": "https://github.com/devetry/lint-roller#readme",
+  "peerDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
