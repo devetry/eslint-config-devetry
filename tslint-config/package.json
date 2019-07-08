@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/devetry/eslint-config-devetry.git"
+    "url": "git+ssh://git@github.com/devetry/lint-roller.git"
   },
   "keywords": [
     "tslint"
@@ -17,9 +17,9 @@
   "author": "Devetry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devetry/eslint-config-devetry/issues"
+    "url": "https://github.com/devetry/lint-roller/issues"
   },
-  "homepage": "https://github.com/devetry/eslint-config-devetry#readme",
+  "homepage": "https://github.com/devetry/lint-roller#readme",
   "devDependencies": {
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",

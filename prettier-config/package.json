@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devetry/eslint-config-devetry.git"
+    "url": "git+https://github.com/devetry/lint-roller.git"
   },
   "keywords": [
     "prettier",
@@ -17,9 +17,9 @@
   "author": "Devetry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devetry/eslint-config-devetry/issues"
+    "url": "https://github.com/devetry/lint-roller/issues"
   },
-  "homepage": "https://github.com/devetry/eslint-config-devetry#readme",
+  "homepage": "https://github.com/devetry/lint-roller#readme",
   "peerDependencies": {
     "prettier": "^1.18.2"
   }
