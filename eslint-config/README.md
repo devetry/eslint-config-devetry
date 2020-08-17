@@ -1,11 +1,32 @@
 @devetry-eslint-config
 ======================
 
-[Airbnb's eslint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) provides a good starting point, but we don't always agree with their choices.
+## Installation
 
-Rather than copy-pasting the same rules around different projects, we can now:
+```bash
+# First, install eslint
+npm install eslint --save-dev
 
-1. `npm install --save-dev @devetry/eslint-config`
-2. Add `extends: "@devetry/eslint-config"` to your .eslintrc.
+# then set up an eslint configuration file
+npx eslint --init # follow the prompts about your project
+```
 
-We will try to add reasons for our deviations from airbnb's base, where appropriate.
+Now, add our config
+
+```bash
+npm install @devetry/eslint-config --save-dev
+```
+
+Add the config to your `.eslintrc` file:
+
+```diff
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
++        "@devetry/eslint-config",
+    ],
+```
+
+## Setting up your editor
+
+Prettier is most useful if you run it interactively in your editor. Refer to the docs to see how to do it for your editor: https://prettier.io/docs/en/editors.html

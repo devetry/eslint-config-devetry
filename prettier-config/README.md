@@ -16,3 +16,20 @@ Devetry's base prettier config
   ...
 }
 ```
+
+If you're also using eslint (recommended), turn off any eslint-based rules that conflict with prettier. To do this easily, you can run
+
+```bash
+npm install --save-dev eslint-config-prettier
+```
+
+and add `"prettier"` to your eslint config plugin:
+
+```diff
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "@devetry/eslint-config",
++       "prettier"
+    ],
+```
