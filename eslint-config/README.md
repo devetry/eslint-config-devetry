@@ -23,7 +23,7 @@ Add the config to your `.eslintrc` file:
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-+        "@devetry/eslint-config",
++       "@devetry/eslint-config",
     ],
 ```
 
