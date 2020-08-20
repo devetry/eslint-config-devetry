@@ -26,7 +26,3 @@ Add the config to your `.eslintrc` file:
 +       "@devetry/eslint-config",
     ],
 ```
-
-## Setting up your editor
-
-Prettier is most useful if you run it interactively in your editor. Refer to the docs to see how to do it for your editor: https://prettier.io/docs/en/editors.html
