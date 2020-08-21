@@ -35,5 +35,32 @@ module.exports = {
     // As in this object, there are some keys that require quoting, and
     // some that don't. It's ugly IMO to have only some keys quoted.
     'quote-props': ['error', 'consistent'],
+
+    // typescript is better at this. False positives when using assertNever.
+    'consistent-return': 0,
+    // ditto
+    'array-callback-return': 0,
+    // I _like_ nested ternary
+    'no-nested-ternary': 0,
+    // false positives when using JSX
+    'no-unused-vars': 0,
+    // false positives when using JSX
+    '@typescript-eslint/no-unused-vars': 0,
+    // breaks my formatting of nested ternaries.
+    'operator-linebreak': 0,
+    // breaks my formatting of nested ternaries
+    'indent': 0,
+    // functions are hoisted, get off my case
+    'no-use-before-define': ['error', 'nofunc'],
+    // any is a fact of life. better to be explicit.
+    '@typescript-eslint/no-explicit-any': 0,
+    // my build system is already gonna yell at me if my imports are bad.
+    'import/no-unresolved': 0,
+    // no reason for eslint to get involved. It might contradict what the build system needs
+    'import/extensions': 0,
+    // eslint doesn't seem to be able to tell when I'm using a package only at build time or whatever.
+    // the dependencies/devDependencies distinction is largely imaginary anyway
+    'import/no-extraneous-dependencies': 0,
+
   },
 };
